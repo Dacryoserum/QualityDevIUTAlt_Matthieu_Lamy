@@ -2,8 +2,8 @@ namespace ConsoleApp1;
 
 public class Media
 {
-    private String Titre { get; set;  }
-    private int numReference { get; set; }
+    public String Titre { get; set;  }
+    public int numReference { get; set; }
     public int nbrExemplaireDispo { get; set; }
 
     public virtual void AfficherInfos()
